@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanggar Rias Tata Ayu — Sewa Kebaya, Gaun & Jas Pengantin Pekalongan</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- ===================== HEADER FIXED (top-bar + nav) ===================== -->
+    <div id="siteHeadFixed">
+        <div class="top-bar">
+            <div class="container">
+                <span><i class="bi bi-clock"></i> Senin–Sabtu 08.00–20.00 &nbsp;•&nbsp; Minggu 09.00–17.00</span>
+                <div class="social-mini">
+                    <a href="https://instagram.com" target="_blank" rel="noopener"><i class="bi bi-instagram"></i></a>
+                    <a href="https://facebook.com" target="_blank" rel="noopener"><i class="bi bi-facebook"></i></a>
+                    <a href="https://wa.me/6285325090578" target="_blank" rel="noopener"><i class="bi bi-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <header class="site-header">
+            <div class="header-top">
+                <a href="index.html" class="brand">
+                    <span class="brand-logo">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#C9A44C" stroke-width="1.3"><path d="M3 8l4 3 5-6 5 6 4-3-2 10H5L3 8z"/></svg>
+        </span>
+                    <span class="brand-text">
+          <small>Sanggar Rias</small>
+          <div class="font-display">Tata Ayu</div>
+        </span>
+                </a>
+                <button id="navToggle" class="nav-toggle"><i class="bi bi-list"></i></button>
+                <nav id="mainNav" class="main-nav">
+                    <a href="#beranda" class="active">Beranda</a>
+                    <a href="#katalog">Katalog</a>
+                    <a href="#cara-sewa">Cara Sewa</a>
+                    <a href="#kontak">Kontak</a>
+                    <a href="#keranjang" class="nav-cart"><i class="bi bi-bag"></i> Keranjang <span class="cart-count">0</span></a>
+                    <span id="nav-auth-slot"></span>
+                    <a href="#katalog" class="header-cta">Sewa Sekarang</a>
+                </nav>
+            </div>
+        </header>
+        <div class="parang-divider"></div>
+    </div>
+    <div id="headerSpacer"></div>
+
+    <!-- ===================== HERO ===================== -->
+    <div class="hero-split" id="beranda">
+        <div class="container">
+            <div class="hero-photo">
+                <div class="frame" id="heroFrameSlider">
+                    <div class="hero-frame-slide active" style="background:linear-gradient(135deg,#241E17,#5B1A22);">
+                        <img src="images/produk/5.jpg" alt="Foto hero 1" onerror="this.style.display='none'">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M10 2h4l1 5-2 1 4 12a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1l4-12-2-1 1-5z"/></svg>
+                    </div>
+                    <div class="hero-frame-slide" style="background:linear-gradient(135deg,#17130F,#3a2a15);">
+                        <img src="images/produk/22.jpg" alt="Foto hero 2" onerror="this.style.display='none'">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M9 3l3 2 3-2 2 4-2 2v11a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1V9L6 7l3-4z"/></svg>
+                    </div>
+                    <div class="hero-frame-slide" style="background:linear-gradient(135deg,#241E17,#17130F);">
+                        <img src="images/produk/27.jpg" alt="Foto hero 3" onerror="this.style.display='none'">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M8 4l4 2 4-2 4 3-2 2v10a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V9L4 7l4-3z"/></svg>
+                    </div>
+                    <div class="hero-frame-dots" id="heroFrameDots"></div>
+                </div>
+                <div class="badge-float">10+ Tahun<span>Melayani Pekalongan</span></div>
+            </div>
+            <div class="hero-text">
+                <span class="eyebrow-pill">Sanggar Rias Tata Ayu — Kec. Siwalan, Kab. Pekalongan</span>
+                <h1>Keanggunan Busana <em>Sejak 2015</em></h1>
+                <p class="lead">Sewa kebaya, gaun pesta, dan jas pengantin dengan sentuhan kain Batik Pekalongan asli — untuk wisuda, resepsi, hingga acara adat.</p>
+                <div class="hero-quickinfo">
+                    <div><i class="bi bi-bag-heart"></i>
+                        <div><strong>50+</strong><small>Koleksi Busana</small></div>
+                    </div>
+                    <div><i class="bi bi-geo-alt"></i>
+                        <div><strong>4</strong><small>Kecamatan Dilayani</small></div>
+                    </div>
+                    <div><i class="bi bi-emoji-smile"></i>
+                        <div><strong>300+</strong><small>Pelanggan Puas</small></div>
+                    </div>
+                </div>
+                <div class="hero-cta-row">
+                    <a href="#katalog" class="btn-gold">Lihat Katalog</a>
+                    <a href="#kontak" class="link-play"><i class="bi bi-play-fill"></i> Kunjungi Toko Kami</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===================== TENTANG: galeri + checklist ===================== -->
+    <section>
+        <div class="container">
+            <div class="section-head">
+                <span class="eyebrow">Tentang Kami</span>
+                <h2>Keanggunan dalam Balutan Busana Sejak 2015</h2>
+                <p>Sanggar Rias Tata Ayu hadir dari hasil observasi kebutuhan warga Kecamatan Siwalan akan busana adat, batik, dan busana pesta modern dengan harga terjangkau.</p>
+            </div>
+
+            <div class="about-grid">
+                <div class="gallery-mosaic">
+                    <div class="g-main"><img src="images/produk/3.jpg" alt="Galeri 1" onerror="this.style.display='none'"></div>
+                    <div><img src="images/produk/17.jpg" alt="Galeri 2" onerror="this.style.display='none'"></div>
+                    <div><img src="images/produk/4.jpg" alt="Galeri 3" onerror="this.style.display='none'"></div>
+                </div>
+                <div>
+                    <h3 style="font-size:1.6rem;margin-bottom:14px;">Kenapa Memilih Kami?</h3>
+                    <ul class="checklist">
+                        <li><i class="bi bi-check-circle-fill"></i> Bahan berkualitas &amp; kain batik Pekalongan asli</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Proses sewa cepat, cukup 4 langkah online</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Fitting &amp; konsultasi gaya gratis di toko</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Ongkos kirim transparan untuk 4 kecamatan</li>
+                    </ul>
+                    <div class="about-stat">
+                        <span class="num">500+</span>
+                        <span class="lbl">Busana telah disewa<br>oleh pelanggan kami</span>
+                    </div>
+                    <a href="#katalog" class="btn-maroon">Jelajahi Katalog</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== KATEGORI ANDALAN ===================== -->
+    <section style="background:var(--c-white);">
+        <div class="container">
+            <div class="section-head">
+                <span class="eyebrow">Kategori Andalan</span>
+                <h2>Kebaya Batik Pekalongan Asli</h2>
+            </div>
+            <div class="signature-block">
+                <div>
+                    <h3 style="font-size:1.5rem;margin-bottom:14px;">Warisan Batik dalam Setiap Jahitan</h3>
+                    <p style="color:#5a5348;margin-bottom:18px;">Berlokasi di kawasan Pekalongan yang dikenal sebagai Kota Batik, kami menghadirkan koleksi kebaya kutubaru dan encim dengan motif batik pesisiran Pekalongan asli — dijahit rapi dan dirawat oleh perawatan kain khusus.</p>
+                    <ul class="checklist">
+                        <li><i class="bi bi-check-circle-fill"></i> Motif batik tulis &amp; cap pilihan</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Ukuran S sampai XXL tersedia</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Cocok untuk wisuda, lamaran, hingga resepsi</li>
+                    </ul>
+                    <a href="#katalog" class="btn-gold">Sewa Kebaya Batik</a>
+                </div>
+                <div class="photo">
+                    <img src="images/produk/12.jpg" alt="Kebaya Batik Pekalongan" onerror="this.style.display='none'">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M9 3l3 2 3-2 2 4-2 2v11a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1V9L6 7l3-4z"/></svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== 6 KEUNGGULAN ===================== -->
+    <section class="bg-dark">
+        <div class="container">
+            <div class="section-head">
+                <span class="eyebrow">Keunggulan</span>
+                <h2>Kenapa Pelanggan Percaya Kami</h2>
+            </div>
+            <div class="feature6">
+                <div class="feature6-item">
+                    <i class="bi bi-gem"></i>
+                    <h4>Kualitas Terjaga</h4>
+                    <p>Busana dicuci &amp; disetrika profesional setiap selesai disewa.</p>
+                    <div class="mini-stats"><span>50+ koleksi</span><span>4.9 ★ rating</span></div>
+                </div>
+                <div class="feature6-item">
+                    <i class="bi bi-lightning-charge"></i>
+                    <h4>Proses Cepat</h4>
+                    <p>Booking online, checkout, dan struk terbit dalam hitungan menit.</p>
+                    <div class="mini-stats"><span>&lt; 5 menit</span><span>Online 24 jam</span></div>
+                </div>
+                <div class="feature6-item">
+                    <i class="bi bi-person-badge"></i>
+                    <h4>Fitting Gratis</h4>
+                    <p>Konsultasi gaya &amp; pas busana langsung di toko tanpa biaya tambahan.</p>
+                    <div class="mini-stats"><span>Gratis</span><span>Semua produk</span></div>
+                </div>
+                <div class="feature6-item">
+                    <i class="bi bi-receipt"></i>
+                    <h4>Harga Transparan</h4>
+                    <p>Ongkir &amp; total pembayaran jelas tercantum di struk otomatis.</p>
+                    <div class="mini-stats"><span>4 kecamatan</span><span>Struk digital</span></div>
+                </div>
+                <div class="feature6-item">
+                    <i class="bi bi-stars"></i>
+                    <h4>Aksesoris Lengkap</h4>
+                    <p>Selendang, bros, hingga sanggul tersedia untuk melengkapi penampilan.</p>
+                    <div class="mini-stats"><span>8+ jenis</span><span>Siap pakai</span></div>
+                </div>
+                <div class="feature6-item">
+                    <i class="bi bi-truck"></i>
+                    <h4>Layanan Antar</h4>
+                    <p>Pengantaran ke 4 kecamatan di Kota Pekalongan dengan ongkir jelas.</p>
+                    <div class="mini-stats"><span>Rp5rb–7.5rb</span><span>Tepat waktu</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== CTA BANNER ===================== -->
+    <div class="cta-banner">
+        <div class="container">
+            <h2>Konsultasi Gaya Bersama Kami, Gratis!</h2>
+            <p>Bingung memilih busana untuk acara Anda? Tim kami siap membantu memadupadankan busana yang paling cocok.</p>
+            <a href="#kontak" class="btn-gold">Hubungi Kami Sekarang</a>
+        </div>
+    </div>
+
+    <!-- ===================== KATALOG (lengkap) ===================== -->
+    <section id="katalog">
+        <div class="container">
+            <div class="section-head">
+                <span class="eyebrow">Katalog</span>
+                <h2>Semua Busana Sewa</h2>
+                <p>Pilih busana favorit Anda, lalu tambahkan ke keranjang. Harga berlaku per hari sewa.</p>
+            </div>
+
+            <div class="search-bar">
+                <i class="bi bi-search"></i>
+                <input type="text" id="searchProduct" placeholder="Cari nama busana... misal: kebaya, gaun, jas">
+                <button id="clearSearch" class="clear-search-btn" title="Hapus pencarian" style="display:none;"><i class="bi bi-x-lg"></i></button>
+            </div>
+
+            <div class="filter-bar" id="filterBar">
+                <button class="filter-btn active" data-cat="Semua">Semua</button>
+                <button class="filter-btn" data-cat="Kebaya">Kebaya</button>
+                <button class="filter-btn" data-cat="Gaun">Gaun</button>
+                <button class="filter-btn" data-cat="Jas">Jas &amp; Beskap</button>
+                <button class="filter-btn" data-cat="Aksesoris">Aksesoris</button>
+            </div>
+
+            <div class="grid grid-4" id="productGrid"></div>
+            <p class="empty-state" id="noResult" style="display:none;">
+                <i class="bi bi-emoji-frown" style="font-size:2rem;color:#c9bfa8;"></i><br> Tidak ada busana dengan nama tersebut.
+            </p>
+        </div>
+    </section>
+
+    <!-- ===================== CARI KONSULTAN GAYA ===================== -->
+    <section class="bg-dark" id="cara-sewa">
+        <div class="container">
+            <div class="section-head">
+                <span class="eyebrow">Konsultan Gaya</span>
+                <h2>Temukan Konsultan Busana Kami</h2>
+                <p>Pilih konsultan gaya sesuai kebutuhan acara Anda untuk hasil penampilan terbaik.</p>
+            </div>
+
+            <div class="filter-panel">
+                <div class="form-field">
+                    <label style="color:var(--c-gold-light);">Jenis Acara</label>
+                    <select><option>Semua Acara</option><option>Wisuda</option><option>Resepsi Pernikahan</option><option>Lamaran</option><option>Acara Adat</option></select>
+                </div>
+                <div class="form-field">
+                    <label style="color:var(--c-gold-light);">Budget Konsultasi</label>
+                    <select><option>Semua Budget</option><option>Gratis</option><option>Rp50.000</option><option>Rp100.000</option></select>
+                </div>
+                <div class="form-field">
+                    <label style="color:var(--c-gold-light);">Tanggal Konsultasi</label>
+                    <input type="date">
+                </div>
+                <button class="btn-gold"><i class="bi bi-search"></i></button>
+            </div>
+
+            <div class="grid grid-3">
+                <div class="stylist-card">
+                    <div class="stylist-avatar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3"><circle cx="12" cy="8" r="4"/><path d="M4 21v-2a6 6 0 0 1 6-6h4a6 6 0 0 1 6 6v2"/></svg></div>
+                    <h4>Ibu Sulastri</h4>
+                    <div class="spec">Spesialis Kebaya &amp; Batik</div>
+                    <div class="rating">★★★★★ 4.9</div>
+                    <div class="price">Gratis</div>
+                    <a href="#kontak" class="btn-outline btn-sm btn-block">Booking Konsultasi</a>
+                </div>
+                <div class="stylist-card">
+                    <div class="stylist-avatar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3"><circle cx="12" cy="8" r="4"/><path d="M4 21v-2a6 6 0 0 1 6-6h4a6 6 0 0 1 6 6v2"/></svg></div>
+                    <h4>Kak Dimas Ardana</h4>
+                    <div class="spec">Spesialis Jas &amp; Beskap</div>
+                    <div class="rating">★★★★★ 4.8</div>
+                    <div class="price">Rp 50.000</div>
+                    <a href="#kontak" class="btn-outline btn-sm btn-block">Booking Konsultasi</a>
+                </div>
+                <div class="stylist-card">
+                    <div class="stylist-avatar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3"><circle cx="12" cy="8" r="4"/><path d="M4 21v-2a6 6 0 0 1 6-6h4a6 6 0 0 1 6 6v2"/></svg></div>
+                    <h4>Mbak Rania Putri</h4>
+                    <div class="spec">Spesialis Gaun Pesta</div>
+                    <div class="rating">★★★★★ 4.9</div>
+                    <div class="price">Rp 50.000</div>
+                    <a href="#kontak" class="btn-outline btn-sm btn-block">Booking Konsultasi</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== CTA BESAR + GAMBAR ===================== -->
+    <section>
+        <div class="container">
+            <div class="cta-split">
+                <div>
+                    <span class="eyebrow" style="color:var(--c-maroon);">Ajakan</span>
+                    <h2 style="font-size:2rem;margin-bottom:14px;">Tampil Istimewa di Setiap Momen Anda</h2>
+                    <p style="color:#5a5348;margin-bottom:22px;">Dari wisuda hingga resepsi pernikahan, biarkan Sanggar Rias Tata Ayu melengkapi penampilan terbaik Anda dengan busana pilihan dan pelayanan ramah.</p>
+                    <a href="#katalog" class="btn-gold">Mulai Sewa Sekarang</a>
+                </div>
+                <div class="photo">
+                    <img src="images/produk/20.jpg" alt="Tampil Istimewa" onerror="this.style.display='none'">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.1"><path d="M3 21h18M5 21V9l7-6 7 6v12M9 21v-6h6v6"/></svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== STATISTIK ===================== -->
+    <div style="background:var(--c-white);border-top:1px solid #e6dcc4;">
+        <div class="container">
+            <div class="stats-row">
+                <div>
+                    <div class="num">50+</div>
+                    <div class="lbl">Busana Tersedia</div>
+                </div>
+                <div>
+                    <div class="num">300+</div>
+                    <div class="lbl">Pelanggan Puas</div>
+                </div>
+                <div>
+                    <div class="num">4</div>
+                    <div class="lbl">Kecamatan Dilayani</div>
+                </div>
+                <div>
+                    <div class="num">10+</div>
+                    <div class="lbl">Tahun Pengalaman</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===================== TRUST BADGES ===================== -->
+    <div class="container">
+        <div class="trust-row">
+            <div>
+                <i class="bi bi-patch-check"></i>
+                <h4>Original Batik Pekalongan</h4>
+                <p>Kain batik langsung dari pengrajin lokal Pekalongan.</p>
+            </div>
+            <div>
+                <i class="bi bi-droplet-half"></i>
+                <h4>Higienis &amp; Rapi</h4>
+                <p>Dicuci dan disetrika profesional sebelum diserahkan.</p>
+            </div>
+            <div>
+                <i class="bi bi-emoji-heart-eyes"></i>
+                <h4>Layanan Ramah</h4>
+                <p>Tim kami siap membantu Anda memilih busana terbaik.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===================== KONTAK ===================== -->
+    <section id="kontak" style="background:var(--c-white);">
+        <div class="container">
+            <div class="section-head">
+                <span class="eyebrow">Hubungi Kami</span>
+                <h2>Kunjungi & Sapa Kami</h2>
+                <p>Kami berlokasi di Kecamatan Siwalan, Kabupaten Pekalongan — datang langsung atau hubungi kami melalui kanal berikut.</p>
+            </div>
+
+            <div class="contact-grid">
+                <div>
+                    <div class="info-box">
+                        <h4><i class="bi bi-geo-alt"></i> Alamat Toko</h4>
+                        <p>Krasak, Desa Siwalan, Kec. Siwalan, Kabupaten Pekalongan, Jawa Tengah 51137</p>
+                    </div>
+                    <div class="info-box">
+                        <h4><i class="bi bi-telephone"></i> Telepon / WhatsApp</h4>
+                        <p>0853-2509-0578 (WhatsApp)<br>(0285) 123-456 (Telepon Toko)</p>
+                    </div>
+                    <div class="info-box">
+                        <h4><i class="bi bi-clock"></i> Jam Operasional</h4>
+                        <p>Senin – Sabtu: 08.00 – 20.00 WIB<br>Minggu: 09.00 – 17.00 WIB</p>
+                    </div>
+                    <div class="info-box">
+                        <h4><i class="bi bi-share"></i> Sosial Media Kami</h4>
+                        <p>Ikuti untuk lihat koleksi terbaru & promo sewa busana.</p>
+                        <div class="social-row">
+                            <a href="https://instagram.com" target="_blank" rel="noopener"><i class="bi bi-instagram"></i></a>
+                            <a href="https://facebook.com" target="_blank" rel="noopener"><i class="bi bi-facebook"></i></a>
+                            <a href="https://tiktok.com" target="_blank" rel="noopener"><i class="bi bi-tiktok"></i></a>
+                            <a href="https://wa.me/6285325090578" target="_blank" rel="noopener"><i class="bi bi-whatsapp"></i></a>
+                            <a href="https://youtube.com" target="_blank" rel="noopener"><i class="bi bi-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="info-box" style="padding:8px;">
+                        <iframe class="map-frame" loading="lazy" src="https://www.google.com/maps?q=-6.890416,109.599425&output=embed">
+          </iframe>
+                    </div>
+                    <div class="info-box" style="padding:8px;">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Ck4RmFzx1-I?si=Vkgj6orIi1o7-eh8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== KERANJANG & CHECKOUT ===================== -->
+    <section id="keranjang" class="bg-dark">
+        <div class="container">
+            <div class="section-head">
+                <span class="eyebrow" style="color:var(--c-gold);">Keranjang</span>
+                <h2 style="color:var(--c-gold-light);">Keranjang & Checkout</h2>
+                <p>Periksa kembali busana pilihan Anda, tentukan kecamatan pengiriman, lalu selesaikan pembayaran.</p>
+            </div>
+
+            <div id="cartContent" style="background:var(--c-cream);padding:30px;border-radius:4px;">
+                <!-- diisi via JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== FOOTER ===================== -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <h5>Sanggar Rias Tata Ayu</h5>
+                    <p>Krasak, Desa Siwalan, Kec. Siwalan, Kabupaten Pekalongan, Jawa Tengah 51137. Sewa kebaya, gaun pesta, jas &amp; beskap untuk momen istimewa Anda.</p>
+                    <form class="newsletter-row" onsubmit="event.preventDefault(); alert('Terima kasih telah berlangganan info promo kami!'); this.reset();">
+                        <input type="email" placeholder="Email Anda" required>
+                        <button type="submit"><i class="bi bi-send"></i></button>
+                    </form>
+                </div>
+                <div>
+                    <h5>Tautan</h5>
+                    <p><a href="#beranda">Beranda</a><br><a href="#katalog">Katalog Busana</a><br><a href="#kontak">Kontak Kami</a><br><a href="#keranjang">Keranjang</a></p>
+                </div>
+                <div>
+                    <h5>Jam Layanan</h5>
+                    <p>Senin–Sabtu: 08.00–20.00<br>Minggu: 09.00–17.00<br>Telp/WA: 0853-2509-0578</p>
+                </div>
+            </div>
+            <div class="parang-divider dark"></div>
+            <p class="footer-thanks">"Terima kasih atas Kunjungan Anda"</p>
+            <p class="footer-copy">&copy; <span class="footer-year"></span> Sanggar Rias Tata Ayu. Semua hak cipta dilindungi.</p>
+        </div>
+    </footer>
+
+    <!-- ===================== TOMBOL CHAT WHATSAPP ===================== -->
+    <a href="https://wa.me/6285325090578?text=Halo%20Sanggar%20Rias%20Tata%20Ayu%2C%20saya%20mau%20tanya-tanya%20soal%20sewa%20busana" class="wa-float" target="_blank" rel="noopener" aria-label="Chat WhatsApp">
+        <i class="bi bi-whatsapp"></i>
+    </a>
+    <span class="wa-tooltip">Chat kami di WhatsApp</span>
+
+    <!-- ===================== MUSIK LATAR ===================== -->
+    <audio id="bgMusic" src="audio/bg-music.mp3" loop preload="none"></audio>
+    <button id="musicToggle" class="music-toggle" title="Putar/Jeda Musik" aria-label="Putar atau jeda musik latar">
+  <i class="bi bi-music-note-beamed"></i>
+</button>
+
+    <!-- ===================== OVERLAY STRUK ===================== -->
+    <div id="receiptOverlay">
+        <div class="receipt-wrap">
+            <div class="receipt" id="receiptBody"></div>
+            <div style="display:flex;gap:10px;margin-top:16px;">
+                <button class="btn-outline btn-block" style="color:#fff;border-color:#fff;" onclick="window.print()">Cetak Struk</button>
+                <button class="btn-gold btn-block" id="btnDoneReceipt">Selesai</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/app.js"></script>
+    <script>
+        $(function() {
+                    // ---- tutup menu mobile & auto-set active link saat klik nav ----
+                    $("#mainNav a").on("click", function() {
+                        $("#mainNav").removeClass("open");
+                        $("#mainNav a").removeClass("active");
+                        $(this).addClass("active");
+                    });
+
+                    // ---- gallery mosaic icons ----
+                    const mosaicIcons = [
+                        '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M10 2h4l1 5-2 1 4 12a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1l4-12-2-1 1-5z"/></svg>',
+                        '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M9 3l3 2 3-2 2 4-2 2v11a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1V9L6 7l3-4z"/></svg>',
+                        '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M8 4l4 2 4-2 4 3-2 2v10a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V9L4 7l4-3z"/></svg>'
+                    ];
+                    $(".gallery-mosaic > div").each(function(i) {
+                        $(this).append(mosaicIcons[i]);
+                    });
+
+                    /* ================= HERO SLIDER (jQuery, efek FADE — bukan geser kiri-kanan) ================= */
+                    const $heroSlides = $("#heroFrameSlider .hero-frame-slide");
+                    let dotsHtml = "";
+                    $heroSlides.each((i) => dotsHtml += `<span data-i="${i}" class="${i===0?'active':''}"></span>`);
+                    $("#heroFrameDots").html(dotsHtml);
+
+                    let heroCurrent = 0;
+
+                    function showHeroSlide(i) {
+                        $heroSlides.eq(heroCurrent).fadeOut(600).removeClass("active");
+                        heroCurrent = i;
+                        $heroSlides.eq(heroCurrent).fadeIn(600).addClass("active");
+                        $("#heroFrameDots span").removeClass("active").eq(heroCurrent).addClass("active");
+                    }
+                    let heroAuto = setInterval(() => {
+                        showHeroSlide((heroCurrent + 1) % $heroSlides.length);
+                    }, 4000);
+                    $("#heroFrameDots").on("click", "span", function() {
+                        clearInterval(heroAuto);
+                        showHeroSlide($(this).data("i"));
+                        heroAuto = setInterval(() => {
+                            showHeroSlide((heroCurrent + 1) % $heroSlides.length);
+                        }, 4000);
+                    });
+
+                    /* ================= KATALOG ================= */
+                    let currentCat = "Semua";
+                    let currentSearch = "";
+
+                    function renderProducts() {
+                        let list = currentCat === "Semua" ? PRODUCTS : PRODUCTS.filter(p => p.kategori === currentCat);
+                        if (currentSearch.trim() !== "") {
+                            const q = currentSearch.trim().toLowerCase();
+                            list = list.filter(p => p.nama.toLowerCase().includes(q));
+                        }
+
+                        if (list.length === 0) {
+                            $("#productGrid").html("");
+                            $("#noResult").show();
+                            return;
+                        }
+                        $("#noResult").hide();
+
+                        let html = "";
+                        list.forEach(p => {
+                            html += `<div class="card">
+        <div class="card-img">
+          <img src="images/produk/${p.id}.jpg" alt="${p.nama}" onerror="this.style.display='none'">
+          ${iconSVG(p.icon)}
+        </div>
+        <div class="card-body">
+          <span class="card-cat">${p.kategori}</span>
+          <h4>${p.nama}</h4>
+          <div class="card-price">${formatRupiah(p.harga)} <span>/ hari</span></div>
+          <button class="btn-gold btn-sm btn-block" onclick="handleAdd(${p.id}, this)">Tambah ke Keranjang</button>
+        </div>
+      </div>`;
+                        });
+                        $("#productGrid").html(html);
+                    }
+
+                    window.handleAdd = function(id, btn) {
+                        if (!getSession()) {
+                            alert("Silakan login terlebih dahulu untuk menyewa busana.");
+                            window.location.href = "login.html";
+                            return;
+                        }
+                        addToCart(id);
+                        if (typeof renderCart === "function") renderCart();
+                        const original = btn.textContent;
+                        btn.textContent = "Ditambahkan ✓";
+                        setTimeout(() => {
+                            btn.textContent = original;
+                        }, 1200);
+                    };
+
+                    renderProducts();
+
+                    $("#filterBar").on("click", ".filter-btn", function() {
+                        $(".filter-btn").removeClass("active");
+                        $(this).addClass("active");
+                        currentCat = $(this).data("cat");
+                        renderProducts();
+                    });
+
+                    $("#searchProduct").on("input", function() {
+                        currentSearch = $(this).val();
+                        $("#clearSearch").toggle(currentSearch.trim() !== "");
+                        renderProducts();
+                    });
+
+                    $("#clearSearch").on("click", function() {
+                        currentSearch = "";
+                        $("#searchProduct").val("").focus();
+                        $(this).hide();
+                        renderProducts();
+                    });
+
+                    /* ================= KERANJANG & CHECKOUT ================= */
+                    function renderCart() {
+                        if (!getSession()) {
+                            $("#cartContent").html(`
+        <div class="empty-state">
+          <i class="bi bi-lock" style="font-size:2.4rem;color:#c9bfa8;"></i>
+          <p>Silakan login terlebih dahulu untuk melihat keranjang Anda.</p>
+          <a href="login.html" class="btn-gold">Login Sekarang</a>
+        </div>`);
+                            return;
+                        }
+
+                        const cart = getCart();
+                        if (cart.length === 0) {
+                            $("#cartContent").html(`
+        <div class="empty-state">
+          <i class="bi bi-bag-x" style="font-size:2.4rem;color:#c9bfa8;"></i>
+          <p>Keranjang Anda masih kosong.</p>
+          <a href="#katalog" class="btn-gold">Mulai Pilih Busana</a>
+        </div>`);
+                            return;
+                        }
+
+                        let rows = "";
+                        cart.forEach(i => {
+                            rows += `<tr>
+        <td class="cart-item-name">${i.nama}</td>
+        <td>${formatRupiah(i.harga)} <span style="font-size:.7rem;color:#8a8271;">/ hari</span></td>
+        <td>
+          <div class="qty-box">
+            <button onclick="changeQty(${i.id},-1)">−</button>
+            <input type="text" readonly value="${i.qty}">
+            <button onclick="changeQty(${i.id},1)">+</button>
+          </div>
+        </td>
+        <td>${formatRupiah(i.harga * i.qty)}</td>
+        <td><button class="link-remove" onclick="handleRemove(${i.id})">Hapus</button></td>
+      </tr>`;
+                        });
+
+                        const subtotal = cartSubtotal();
+
+                        $("#cartContent").html(`
+      <div class="checkout-layout">
+        <div>
+          <table class="cart-table">
+            <thead><tr><th>Busana</th><th>Harga</th><th>Jumlah</th><th>Subtotal</th><th></th></tr></thead>
+            <tbody>${rows}</tbody>
+          </table>
+
+          <div style="margin-top:30px;">
+            <h3 style="font-size:1.3rem;margin-bottom:16px;">Detail Pengiriman</h3>
+            <form id="checkoutForm">
+              <div class="grid grid-2">
+                <div class="form-field">
+                  <label>Nama Penerima</label>
+                  <input type="text" id="fNama" required placeholder="Nama lengkap">
+                </div>
+                <div class="form-field">
+                  <label>No. HP / WhatsApp</label>
+                  <input type="text" id="fHp" required placeholder="08xxxxxxxxxx">
+                </div>
+              </div>
+              <div class="grid grid-2">
+                <div class="form-field">
+                  <label>Kecamatan Pengiriman</label>
+                  <select id="fKecamatan" required>
+                    <option value="">-- Pilih Kecamatan --</option>
+                    ${Object.keys(ONGKIR).map(k=>`<option value="${k}">${k} (${formatRupiah(ONGKIR[k])})</option>`).join("")}
+                  </select>
+                </div>
+                <div class="form-field">
+                  <label>Tanggal Sewa</label>
+                  <input type="date" id="fTanggal" required>
+                </div>
+              </div>
+              <div class="form-field">
+                <label>Alamat Lengkap</label>
+                <textarea id="fAlamat" rows="2" required placeholder="Nama jalan, RT/RW, desa/kelurahan"></textarea>
+              </div>
+
+              <div class="form-field">
+                <label>Metode Pembayaran</label>
+                <div class="pay-methods" id="payMethods">
+                  ${PAYMENT_METHODS.map((m,idx)=>`
+                    <div class="pay-option">
+                      <input type="radio" name="metodeBayar" id="pay_${m.id}" value="${m.id}" ${idx===0?"checked":""} required>
+                      <label for="pay_${m.id}">
+                        <i class="bi ${m.icon}" style="color:${m.color}"></i>
+                        ${m.label}
+                      </label>
+                    </div>`).join("")}
+                </div>
+                <div class="qris-box" id="qrisBox">
+                  <img id="qrisImg" src="" alt="QRIS">
+                  <div class="qris-label" id="qrisLabel"></div>
+                  <div class="qris-hint">Scan kode QRIS di atas menggunakan aplikasi pembayaran Anda</div>
+                </div>
+              </div>
+
+              <button type="submit" class="btn-gold btn-block">Bayar & Terbitkan Struk</button>
+            </form>
+          </div>
+        </div>
+
+        <div class="summary-box">
+          <h4 style="color:var(--c-gold-light);margin-bottom:14px;font-size:1.1rem;">Ringkasan Pembayaran</h4>
+          <div class="summary-row"><span>Subtotal Sewa</span><span>${formatRupiah(subtotal)}</span></div>
+          <div class="summary-row"><span>Ongkos Kirim</span><span id="ongkirDisplay">Pilih kecamatan</span></div>
+          <div class="summary-row total"><span>Total</span><span id="totalDisplay">${formatRupiah(subtotal)}</span></div>
+          <p style="font-size:.72rem;color:#c9bfa8;margin-top:14px;">*Ongkos kirim dihitung otomatis sesuai kecamatan tujuan. Usaha berlokasi di Kecamatan Siwalan, Kabupaten Pekalongan.</p>
+        </div>
+      </div>
+    `);
+
+    $("#fKecamatan").on("change", function(){
+      const k = $(this).val();
+      const ongkir = k ? ONGKIR[k] : 0;
+      $("#ongkirDisplay").text(k ? formatRupiah(ongkir) : "Pilih kecamatan");
+      $("#totalDisplay").text(formatRupiah(subtotal + ongkir));
+    });
+
+    function updateQrisBox(){
+      const metodeId = $("input[name='metodeBayar']:checked").val();
+      const metode = PAYMENT_METHODS.find(m=>m.id===metodeId);
+      if(metode && metode.qris){
+        $("#qrisImg").attr("src", metode.qrisImage);
+        $("#qrisLabel").text("QRIS " + metode.label);
+        $("#qrisBox").addClass("show");
+      } else {
+        $("#qrisBox").removeClass("show");
+      }
+    }
+    $("input[name='metodeBayar']").on("change", updateQrisBox);
+    updateQrisBox();
+
+    $("#checkoutForm").on("submit", function(e){
+      e.preventDefault();
+      const kecamatan = $("#fKecamatan").val();
+      if(!kecamatan){ alert("Silakan pilih kecamatan pengiriman."); return; }
+      const ongkir = ONGKIR[kecamatan];
+      const total = subtotal + ongkir;
+      const metodeId = $("input[name='metodeBayar']:checked").val();
+      const metode = PAYMENT_METHODS.find(m=>m.id===metodeId);
+      showReceipt({
+        nama: $("#fNama").val(),
+        hp: $("#fHp").val(),
+        kecamatan, alamat: $("#fAlamat").val(),
+        tanggal: $("#fTanggal").val(),
+        metode: metode ? metode.label : "-",
+        items: cart, subtotal, ongkir, total
+      });
+    });
+  }
+
+  window.changeQty = function(id, delta){
+    const cart = getCart();
+    const item = cart.find(i=>i.id===id);
+    if(item){ updateQty(id, item.qty + delta); }
+    updateCartBadge();
+    renderCart();
+  };
+  window.handleRemove = function(id){
+    removeFromCart(id);
+    renderCart();
+  };
+
+  function showReceipt(order){
+    const kodeTransaksi = "GBM-" + Date.now().toString().slice(-8);
+    const tanggalCetak = new Date().toLocaleDateString("id-ID", { day:'2-digit', month:'long', year:'numeric' });
+
+    let itemLines = "";
+    order.items.forEach(i=>{
+      itemLines += `<div class="receipt-line"><span>${i.nama} x${i.qty}</span><span>${formatRupiah(i.harga*i.qty)}</span></div>`;
+    });
+
+    const html = `
+      <div class="receipt-head">
+        <div class="pt-logo">${iconSVG('crown')}</div>
+        <div class="pt-name">PT. TATA AYU BUSANA SEJAHTERA</div>
+        <div class="pt-sub">Krasak, Desa Siwalan, Kec. Siwalan, Kab. Pekalongan</div>
+      </div>
+      <div class="receipt-divider"></div>
+      <div class="receipt-line"><span>No. Transaksi</span><span>${kodeTransaksi}</span></div>
+      <div class="receipt-line"><span>Tanggal Cetak</span><span>${tanggalCetak}</span></div>
+      <div class="receipt-line"><span>Penerima</span><span>${order.nama}</span></div>
+      <div class="receipt-line"><span>No. HP</span><span>${order.hp}</span></div>
+      <div class="receipt-line"><span>Tgl Sewa</span><span>${order.tanggal}</span></div>
+      <div class="receipt-line"><span>Kecamatan</span><span>${order.kecamatan}</span></div>
+      <div class="receipt-line"><span>Metode Bayar</span><span>${order.metode}</span></div>
+      <div class="receipt-divider"></div>
+      ${itemLines}
+      <div class="receipt-divider"></div>
+      <div class="receipt-line"><span>Subtotal</span><span>${formatRupiah(order.subtotal)}</span></div>
+      <div class="receipt-line"><span>Ongkos Kirim</span><span>${formatRupiah(order.ongkir)}</span></div>
+      <div class="receipt-line total"><span>TOTAL BAYAR</span><span>${formatRupiah(order.total)}</span></div>
+      <p style="text-align:center;font-size:.7rem;color:#8a8271;margin-top:6px;">*Pembayaran ${order.metode} bersifat simulasi untuk keperluan demo website.</p>
+      <div class="receipt-thanks">Terima kasih telah menyewa di<br>Sanggar Rias Tata Ayu ✦</div>
+    `;
+    $("#receiptBody").html(html);
+    $("#receiptOverlay").css("display","flex");
+
+    $("#btnDoneReceipt").off("click").on("click", function(){
+      saveCart([]);
+      updateCartBadge();
+      $("#receiptOverlay").hide();
+      renderCart();
+      window.location.hash = "beranda";
+    });
+  }
+
+  renderCart();
+});
+    </script>
+</body>
+
+</html>
